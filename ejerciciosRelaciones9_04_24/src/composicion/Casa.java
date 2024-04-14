@@ -30,7 +30,5 @@ public class Casa {
     public void agregarPuerta(String material) {
         puertas.add(new Puerta(material));
     }
-    public void setPuertas(List<Puerta> puertas) {
-        this.puertas = puertas;
-    }
+    
 }
